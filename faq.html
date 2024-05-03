@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Furni Mart</title>
+    <!-- START:: Styles -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <!-- font awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <!-- style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- END:: Styles -->
+    <!-- component -->
+    <script src="footer.js"></script>
+    <!-- component -->
+  </head>
+  <body>
+    <!--START::Nav Section-->
+    <header class="main_menu home_menu">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              
+              <a class="navbar-brand" href="index.html"><img src="assets/images/logo.svg" alt="logo" /></a>
+              
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="menu_icon"><i  style="color: #78909c;" class="fas fa-bars"></i></span>
+              </button>
+
+              <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Shop
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
+                      <a class="dropdown-item" href="category.html">
+                        shop category
+                      </a>
+                      <a class="dropdown-item" href="allproducts.html">
+                        All Products
+                      </a>
+                      <a class="dropdown-item" href="single-product.html">
+                        product details
+                      </a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      pages
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                      <a class="dropdown-item" href="checkout.html">product checkout</a>
+                      <a class="dropdown-item" href="cart.html">shopping cart</a>
+                    </div>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="hearer_icon d-flex">
+                <a id="search_1" href="#"><i style="color: #78909c" class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="wishlist.html"><i style="color: #78909c" class="fa-regular fa-heart"></i></a>
+                <a href="cart.html"><i style="color: #78909c" class="fas fa-cart-plus"></i></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="search_input" id="search_input_box">
+        <div class="container">
+          <form class="d-flex justify-content-between search-inner">
+            <input type="text" class="form-control" id="search_input" placeholder="Search Here"/>
+            <button type="submit" class="btn"></button>
+            <span id="close_search" title="Close Search">
+              <i class="fa-solid fa-xmark"></i>
+            </span>
+          </form>
+        </div>
+      </div>
+    </header>
+    <!-- END::Nav Section-->
+
+    <!-- START:: TOP Banner -->
+    <section class="top-banner">
+      <div class="top-banner-img">
+        <img src="./assets/images/breadcrumb1.png" alt="Banner" class="img-fluid">
+        <div class="text-container">
+          <h2>FAQ</h2>
+          <p class="lead" style="color: #fff;">Find answers to common questions about our furniture products.</p>
+        </div>
+      </div>       
+    </section>
+    <!-- END:: TOP Banner -->
+
+    <!-- START: FAQ Section -->
+    <div class="container mb-5 mt-5">
+      <div class="row">
+  
+        <!-- Section 1 - Living Room Furniture -->
+        <div class="col-md-6"> <!-- Adjusted width to col-md-6 -->
+          <div class="card">
+            <div class="card-header" id="livingRoomHeader">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#livingRoomCollapse" aria-expanded="true" aria-controls="livingRoomCollapse">
+                  Your Order
+                </button>
+              </h2>
+            </div>
+            <div id="livingRoomCollapse" class="collapse show" aria-labelledby="livingRoomHeader" data-parent="#faqAccordion">
+              <div class="card-body">
+                <!-- FAQ Item 1 - Where is my order? -->
+                <div class="faq-item d-flex justify-content-between align-items-center">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faq1Collapse" aria-expanded="true" aria-controls="faq1Collapse">
+                      Where is my order?
+                    </button>
+                  </h5>
+                  <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faq1Collapse" aria-expanded="true" aria-controls="faq1Collapse">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div id="faq1Collapse" class="collapse" aria-labelledby="faq1Header" data-parent="#livingRoomCollapse">
+                  <p>Once your order has been shipped, you will receive an email with a tracking number. You can use this tracking number to monitor the status of your delivery.</p>
+                </div>
+  
+                <!-- FAQ Item 2 - How can I make a complaint? -->
+                <div class="faq-item d-flex justify-content-between align-items-center">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faq2Collapse" aria-expanded="true" aria-controls="faq2Collapse">
+                      How can I make a complaint?
+                    </button>
+                  </h5>
+                  <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faq2Collapse" aria-expanded="true" aria-controls="faq2Collapse">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div id="faq2Collapse" class="collapse" aria-labelledby="faq2Header" data-parent="#livingRoomCollapse">
+                  <p>If you have any issues or complaints about your order, please contact our customer service team through our <a href="contact.html">contact page</a>. We will be happy to assist you.</p>
+                </div>
+  
+                <!-- Add more FAQ items as needed -->
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Section 2 - Delivery -->
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header" id="deliveryHeader">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#deliveryCollapse" aria-expanded="true" aria-controls="deliveryCollapse">
+                  Delivery
+                </button>
+              </h2>
+            </div>
+            <div id="deliveryCollapse" class="collapse show" aria-labelledby="deliveryHeader" data-parent="#faqAccordion">
+              <div class="card-body">
+                <!-- FAQ Item 1 - Delivery Options -->
+                <div class="faq-item d-flex justify-content-between align-items-center">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faqDelivery1Collapse" aria-expanded="true" aria-controls="faqDelivery1Collapse">
+                      Delivery Options
+                    </button>
+                  </h5>
+                  <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faqDelivery1Collapse" aria-expanded="true" aria-controls="faqDelivery1Collapse">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div id="faqDelivery1Collapse" class="collapse" aria-labelledby="faqDelivery1Header" data-parent="#deliveryCollapse">
+                  <p>We offer various delivery options, including standard and express delivery. Choose the one that suits you best.</p>
+                </div>
+  
+                <!-- FAQ Item 2 - Tracking Orders -->
+                <div class="faq-item d-flex justify-content-between align-items-center">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faqDelivery2Collapse" aria-expanded="true" aria-controls="faqDelivery2Collapse">
+                      Tracking Orders
+                    </button>
+                  </h5>
+                  <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faqDelivery2Collapse" aria-expanded="true" aria-controls="faqDelivery2Collapse">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div id="faqDelivery2Collapse" class="collapse" aria-labelledby="faqDelivery2Header" data-parent="#deliveryCollapse">
+                  <p>Once your order is shipped, you will receive a tracking number to monitor the delivery status. You can use this tracking number on our website to track your order.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+  
+      <!-- New Row for Payment and Refunds & Returns -->
+      <div class="row mt-4">
+  
+        <!-- Section 3 - Payment -->
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header" id="paymentHeader">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#paymentCollapse" aria-expanded="true" aria-controls="paymentCollapse">
+                  Payment
+                </button>
+              </h2>
+            </div>
+            <div id="paymentCollapse" class="collapse show" aria-labelledby="paymentHeader" data-parent="#faqAccordion">
+              <div class="card-body">
+                <!-- FAQ Item 1 - Payment Methods -->
+                <div class="faq-item d-flex justify-content-between align-items-center">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faqPayment1Collapse" aria-expanded="true" aria-controls="faqPayment1Collapse">
+                      Payment Methods
+                    </button>
+                  </h5>
+                  <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faqPayment1Collapse" aria-expanded="true" aria-controls="faqPayment1Collapse">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div id="faqPayment1Collapse" class="collapse" aria-labelledby="faqPayment1Header" data-parent="#paymentCollapse">
+                  <p>We accept various payment methods, including credit cards, PayPal, and other online payment services.</p>
+                </div>
+  
+                <!-- FAQ Item 2 - Payment Security -->
+                <div class="faq-item d-flex justify-content-between align-items-center">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faqPayment2Collapse" aria-expanded="true" aria-controls="faqPayment2Collapse">
+                      Payment Security
+                    </button>
+                  </h5>
+                  <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faqPayment2Collapse" aria-expanded="true" aria-controls="faqPayment2Collapse">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div id="faqPayment2Collapse" class="collapse" aria-labelledby="faqPayment2Header" data-parent="#paymentCollapse">
+                  <p>Your payment information is secure. We use encryption technology to protect your personal and financial information.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Section 4 - Refunds & Returns -->
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header" id="returnsHeader">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#returnsCollapse" aria-expanded="true" aria-controls="returnsCollapse">
+                  Refunds & Returns
+                </button>
+              </h2>
+            </div>
+            <div id="returnsCollapse" class="collapse show" aria-labelledby="returnsHeader" data-parent="#faqAccordion">
+              <div class="card-body">
+                <!-- FAQ Item 1 - Return Policy -->
+                <div class="faq-item d-flex justify-content-between align-items-center">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faqReturns1Collapse" aria-expanded="true" aria-controls="faqReturns1Collapse">
+                      Return Policy
+                    </button>
+                  </h5>
+                  <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faqReturns1Collapse" aria-expanded="true" aria-controls="faqReturns1Collapse">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div id="faqReturns1Collapse" class="collapse" aria-labelledby="faqReturns1Header" data-parent="#returnsCollapse">
+                  <p>Our return policy allows you to return items within 30 days of purchase. Please review our <a href="return-policy.html">return policy</a> for more details.</p>
+                </div>
+  
+                <!-- FAQ Item 2 - Refund Process -->
+                <div class="faq-item d-flex justify-content-between align-items-center">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faqReturns2Collapse" aria-expanded="true" aria-controls="faqReturns2Collapse">
+                      Refund Process
+                    </button>
+                  </h5>
+                  <button class="btn btn-link plus-minus-btn" type="button" data-toggle="collapse" data-target="#faqReturns2Collapse" aria-expanded="true" aria-controls="faqReturns2Collapse">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div id="faqReturns2Collapse" class="collapse" aria-labelledby="faqReturns2Header" data-parent="#returnsCollapse">
+                  <p>Our refund process is designed to ensure a smooth and timely return of funds in case of a return. Refunds are typically processed within 5 business days.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+    <!-- END: FAQ Section -->
+
+    <!-- START:: News Letter -->
+    <section class="subscribe_area">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-7">
+                  <div class="subscribe_area_text text-center">
+                      <h5>Join Our Newsletter</h5>
+                      <h2>Subscribe to get Updated with new offers</h2>
+                      <div class="input-group newsletter-container">
+                          <input type="text" class="form-control newsletter-input" placeholder="enter email address" aria-label="Recipient's username" aria-describedby="basic-addon2" style="color: black;">
+                          <div class="input-group-append newsletter-btn">
+                              <a href="#" id="basic-addon2">Subscribe now</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- END:: News Letter -->
+    
+    <!-- START:: Footer -->
+    <footer-component></footer-component>
+    <!-- END:: Footer -->
+
+    <!-- START:: JS -->
+    <script src="assets/js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <!-- particles js -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- slick js -->
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/jquery.form.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/custom.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous" ></script>
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script>
+        // Toggle plus and minus icons on button click
+        $(document).on('click', '.plus-minus-btn', function() {
+          $(this).find('.fa-plus, .fa-minus').toggleClass('fa-plus fa-minus');          
+        });
+    </script>
+    <!-- END:: JS -->
+  </body>
+</html>
